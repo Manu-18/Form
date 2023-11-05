@@ -1,0 +1,29 @@
+.container {
+    background-color: #e6eeff;
+    padding: 20px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #b3ccff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.div {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #4d88ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <form name="form" action="succuss" method="post" onsubmit="return validate()">
+        
+           <h1>Student Registration</h1>
+        
+           <hr />
+          <div class="div">
+            <label for="fname">First Name</label>
+                <input class="input" type="text" id="fname" name="fname" >
+                <div id="err"> </div>
+                
+          </div>
+            
+   
+        <div class="div">
+             <label for="lname">Last name</label>
+                <input class="input"  type="text" id="lname" name="lname">
+                <div id="err"> </div>
+           </div>
+   
+        <div class="div">
+              <label for="education">Education</label>
+                <input class="input"  type="text" id="education" name="edu">
+            </div>
+   
+        <div class="div">
+              <label for="mob">Mobile No.</label>
+                <input class ="input" type="tel" size="10" maxlength="10" id="mob"  name="mob">
+                <div id="moberr"> </div>
+            </div>
+   
+        <div class="div">
+              <label foremail>Email:</label>
+                <input class="input"  type="email" id="email" name="email">
+            </div>
+   
+        <div class ="div">
+              <label for="">Father`s Name</label>
+                <input class="input"  type="text" id="father" name="fnmae">
+            </div>
+   
+        <div class="div">
+              <label>Gender</label>
+               Male<input type="radio" id="gender" value="male" name="gender" >
+                Female <input type="radio" id="gender" value="female" name="gender">
+              
+           </div>
+   
+        <div class="div">
+              <label>DOB</label>
+                <input class="input"  type="date" id="dob" name="dob">
+           </div>
+   
+        <div class="div">
+              <input class="button" type="submit" value="Submit">
+                <input class="button" type="reset" value="Reset" />
+            </div>
+            
+          
+        
+      </form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
